@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Google Advanced Search</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="menu">
+            <a href="index.html">Пошук Google</a>
+            <a href="search_images.html">Пошук зображень</a>
+        </div>
+        <div class="heading">
+            <p>Розширений пошук</p>
+        </div>
+        <hr/>
+        <div>
+            <form action="https://www.google.com/search">
+                <table class="advanced">
+                    <tr>
+                        <td class="table-header">Знайти сторінки, що <br> містять...</td>
+                        <td colspan="3"></td>
+                        <td class="value-description">Як це робити в полі пошуку</td>
+                    </tr>
+                    <tr>
+                        <td class="first-column"><label for="td1">усі ці слова:</label></td>
+                            <td colspan="3">
+                                <input class="text-input" type="text" name="as_q" id="td1"> 
+                            </td>
+                        <td class="last-column">
+                            <div>Введіть важливі слова: триколірний рет-тер’єр</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-column"><label for="td2">точне слово або фраз:</label></td>
+                            <td colspan="3">
+                                <input class="text-input" type="text" name="as_epq" id="td2">
+                            </td>
+                        <td class="last-column">
+                            <div>Візміть точні слова в лапки: "рет-тер’єр"</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-column"><label for="td3">будь-яке з цих слів:</label></td>
+                            <td colspan="3">
+                                <input class="text-input" type="text" name="as_oq" id="td3">
+                            </td>
+                        <td class="last-column">
+                            <div>Введіть OR между словами: мініатюрні OR  стандартні</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-column"><label for="td4">жодце с цих слів:</label></td>
+                            <td colspan="3">
+                                <input class="text-input" type="text" name="as_eq" id="td4">
+                            </td>
+                        <td class="last-column">
+                            <div>Поставте знак мінус перед небажаними словами:<br>-гризун, -"Джек Рассел"</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-column"><label for="td5">числа в діапазоні від:</label></td>
+                            <td><input class="text-input" type="text" name="as_nlo" id="td5"></td>
+                            <td class="to">до</td>
+                            <td><input class="text-input" type="text" name="as_nhi"></td>
+                        <td class="last-column">
+                            <div>Поставте 2 крапки між числами та додайте одиницю виміру:<br> 10..35 фунтів, 300..500 дол. США, 2010..2011</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="3">
+                            <div class="buttons-container">
+                                <input class="button-advanced" type="submit" value="Розширений пошук">
+                            </div>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
